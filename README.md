@@ -136,6 +136,9 @@ For our projects, we have mentioned below the use-cases for the governance token
 that since there would be more projects coming in, the document may be updated quite frequently so do check back for an
 update.
 
+#### Visual Representation of Our Tokenomics
+![](./assets/tokenomics.png)
+
 ### HB
 
 Our ecosystem will primarily use a single utility token called HB. This utility token will be used across the apps
