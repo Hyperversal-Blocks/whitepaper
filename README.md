@@ -154,14 +154,14 @@ $ represents the cost in US dollars.
   - 12 Months Cliff, linear vesting for 24 months (3 Years total)
 - **Advisors:** 50 Million HB (5% of total supply)
   - 12 Months Cliff, linear vesting for 24 months (3 Years total)
-- **Ecosystem:** 150 Million HB (15% of total supply)
+- **Ecosystem:** 200 Million HB (20% of total supply)
 - **Grants:** 50 Million HB (5% of total supply)
   - 12 Months Cliff, linear vesting for 24 months (3 Years total)
 - **Pre-sales:** 100 Million HB (10% of total supply)
   - 12 Months lockup, linear vesting for 24 months
 - **Private Round:** 150 Million HB (10% of total supply)
   - 12 Months lockup, linear vesting for 24 months
-- **Public Round:** 250 Million HB (20% of total supply)
+- **Public Round:** 200 Million HB (20% of total supply)
   - 6 month linear release
 
 ### AV
@@ -174,7 +174,7 @@ $ represents the cost in US dollars.
 
 ## [BML-Loop](https://github.com/Hyperversal-Blocks/bml-loop-fe) - On-Chain Upwork for Beta Testers and Early Adopters
 
-![BML Loop Logo](./pwa-512x512.png)
+![BML Loop Logo](assets/pwa-512x512.png)
 
 Welcome to [BML Loop](https://bmlloop.com), your one-stop solution for streamlined, secure, and seamless beta testing
 experiences, bridging the gap between companies and beta testers with the power of blockchain.
@@ -383,7 +383,7 @@ within that market.
 
 ###### Startups: Market Growth
 
-![](./10000001000002E9000002A5B63B84EE21FD1A42.png)
+![](assets/10000001000002E9000002A5B63B84EE21FD1A42.png)
 
 - Over the last 17 years, the market has [*has exhibited consistent
   growth*](https://www.census.gov/econ/currentdata/?programCode=BFS&startYear=2004&endYear=2023&categories%5b%5d=NAICS51&dataType=BA_BA&geoLevel=US&adjusted=1&notAdjusted=1&errorData=0#bar084),
@@ -393,7 +393,7 @@ within that market.
 
 ###### Beta Testers
 
-![](./100000010000060C000001DBCD2E9165127628B0.png)
+![](assets/100000010000060C000001DBCD2E9165127628B0.png)
 
 - In 2021, the [*workforce*](https://datausa.io/profile/soc/software-quality-assurance-analysts-and-testers) of Software
   Quality Assurance Analysts and Testers comprised 94,942 individuals, with a distribution of 40.1% women and 59.9% men.
@@ -401,7 +401,7 @@ within that market.
 
 ###### Early Adopters
 
-![](./10000001000001FC00000149030B3050E3E99689.png)
+![](assets/10000001000001FC00000149030B3050E3E99689.png)
 
 - Approximately 28% of the American population exhibits a strong inclination toward early adoption and the exploration
   of new technology products, while 45% fall within or close to the median range on the index. The remaining 26% show a
@@ -418,7 +418,7 @@ within that market.
 
 ##### For Early Adopters
 
-1. Lack of financial and in-app incentives­ -- Financial and in-app incentives offered.
+1. Lack of financial and in-app incentives -- Financial and in-app incentives offered.
 2. Ambiguity in communication -- Noted about apps of your interest.
 3. Crowded application -- More focus approach for apps of interest.
 
@@ -428,7 +428,7 @@ within that market.
 
 ## [Averveil](https://github.com/Hyperversal-Blocks/averveil)
 
-![](./AV-Logo%201.png)
+![](assets//AV-Logo%201.png)
 
 Averveil is born from the fusion of "aver," meaning to state or assert, and "veil," symbolizing the protective shroud
 that conceals and guards.
