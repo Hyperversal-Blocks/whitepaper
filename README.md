@@ -162,9 +162,9 @@ $ represents the cost in US dollars.
   - 12 Months Cliff, linear vesting for 24 months (3 Years total)
 - **Pre-sales:** 100 Million HB (10% of total supply)
   - 12 Months lockup, linear vesting for 24 months
-- **Private Round:** 150 Million HB (10% of total supply)
+- **Private Round:** 100 Million HB (10% of total supply)
   - 12 Months lockup, linear vesting for 24 months
-- **Public Round:** 200 Million HB (20% of total supply)
+- **Public Round:** 250 Million HB (25% of total supply)
   - 6 month linear release
 
 ### AV
