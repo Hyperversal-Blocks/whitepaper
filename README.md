@@ -84,6 +84,27 @@ Each proejct has been discussed in details. Since this document also contains te
 and desinging), this doocument will constantly be updated to reflect better the changes that have been discussed and
 planned.
 
+This document also discusses the underlying ecosystem (Hyperversal Blocks) and the use cases that would be the top
+priority of the ecosystem.
+
+### Hyperversal Blocks
+
+"Hyperversal Blocks" represent the foundational elements of an expansive ecosystem, designed for the dual purpose of
+constructing a hyper-connected system. These 'blocks' symbolize the core, modular components of our open-source
+framework, designed to seamlessly integrate into multiple projects. The hyperverse refers to the networked realm where
+these blocks combine, ultimately generating functional and valuable applications for users.
+
+Consider our flagship initiative, "Averveil," which illustrates our ecosystem's operational paradigm. At its core,
+Averveil empowers users to monetize their data by sharing it securely via Zero Knowledge. Within this framework, '
+blocks' are the essential, adaptable modules — such as transaction processing systems or IoT device interfaces — that
+form the backbone of the project. Meanwhile, the 'hyperverse' concept embodies the project's capacity to interface with
+the entire ecosystem, where applications built with Hyperversal Blocks can, with the user's consent, contribute data to
+Averveil. This not only facilitates the accumulation of valuable insights but also rewards users for their
+contributions. Envision Averveil as a secure, data repository, operating on the principles of zero-knowledge proof to
+safeguard privacy while compensating users for data contributions.
+
+The ecosystem features a utility token named HBLOCK, which serves as the medium of exchange for various activities and contributions. Users within this ecosystem are rewarded with HBLOCK tokens for engaging in a range of activities such as staking, participating in surveys, or conducting beta testing, particularly within the "BML-Loop" initiative where startups and businesses offer HBLOCK tokens as incentives to users for their valuable feedback and testing efforts. Similarly, in Averveil, users are paid HBLOCKS as rewards for providing the data. Details on the tokenomics of HBLOCK can be found later in this document.
+
 ### Averveil
 
 For Averveil, the goal is simple, assert your right to privacy and get paid for it. Averveil is like a data-dump, kind
@@ -92,7 +113,7 @@ And the fun part is that it can be integrated completely with any of the sytems.
 you can integrate this within your mobile or webapp or just run it as a node.
 
 Averveil also allows the user to generate Zero-Knowledge based proofs of data and submit them on-chain for some verifier
-interested in buying their data. Data is what drove this technological advancement and it is indeed not going anywhere.
+interested in buying their data. Data is what drove this technological advancement, and it is indeed not going anywhere.
 
 #### Averveil x Swarm Foundation (Grant)
 
@@ -137,6 +158,7 @@ that since there would be more projects coming in, the document may be updated q
 update.
 
 #### Visual Representation of Our Tokenomics
+
 ![](./assets/tokenomics.png)
 
 ### HB
@@ -148,24 +170,28 @@ ecosystem. The primary reason for choosing Polygon for deployment is due to the 
 and the support of ZKEVM that could be used in future for Averveil.
 
 #### Tokenomics for HB
+
 $ represents the cost in US dollars.
 
 - **Total Supply:** 1 Billion HB
 - **Foundation:** 200 Million HB (20% of total supply)
-  - 10% Liquid on TGE, linear vesting for 24 months (3 Years total)
+    - 10% Liquid on TGE, linear vesting for 24 months (3 Years total)
 - **Current and Future Team:** 50 Million HB (5% of total supply)
-  - 12 Months Cliff, linear vesting for 24 months (3 Years total)
+    - 12 Months Cliff, linear vesting for 24 months (3 Years total)
 - **Advisors:** 50 Million HB (5% of total supply)
-  - 12 Months Cliff, linear vesting for 24 months (3 Years total)
+    - 12 Months Cliff, linear vesting for 24 months (3 Years total)
 - **Ecosystem:** 200 Million HB (20% of total supply)
 - **Grants:** 50 Million HB (5% of total supply)
-  - 12 Months Cliff, linear vesting for 24 months (3 Years total)
+    - 12 Months Cliff, linear vesting for 24 months (3 Years total)
 - **Pre-sales:** 100 Million HB (10% of total supply)
-  - 12 Months lockup, linear vesting for 24 months
+    - 12 Months lockup, linear vesting for 24 months
 - **Private Round:** 100 Million HB (10% of total supply)
-  - 12 Months lockup, linear vesting for 24 months
+    - 12 Months lockup, linear vesting for 24 months
 - **Public Round:** 250 Million HB (25% of total supply)
-  - 6 month linear release
+    - 6 month linear release
+
+##### Ecosystem:
+Tokens for ecosystem will be used for facilitation of transactions, staking, rewards, air-drops and for providing liquidity to other projects within the ecosystem.
 
 ### AV
 
@@ -595,201 +621,27 @@ with user needs and preferences. This iterative approach helps us to avoid spend
 features that may not be valuable or necessary, ultimately increasing the chances of creating a successful and
 user-centered product.
 
-### System Features and Requirements
-
-<!-- ### Feature 1
-#### Description
-##### Priority
-#### Functional Requirements
-#### User Stories
-#### Validation Criteria -->
+### Detailed Overview of System Features and Requirements
 
 #### Node
 
-##### Description
+The Node system stands as a significant feature within the Averveil multiverse. It is a decentralized node-based infrastructure essential for the smooth functioning of Averveil ecosystem. The system empowers users to establish and authenticate their profiles, providing the Averveil ecosystem with rich data which, in turn, can be leveraged by other interconnected entities or users. The design encourages data sharing by rewarding Nodes, fostering a collaborative and informative network. This secure exchange of information is built on a foundation of verifiable proof, ensuring data integrity and privacy. To facilitate such operations, the Node system includes an array of functional requirements such as robust authentication mechanisms, access control, blockchain, and storage interfaces, cryptographic services including zero-knowledge proofs, and comprehensive user and sensor interfaces.
 
-Node is a decentralized node-based system designed to facilitate the seamless operation of various services within the
-Averveil multiverse as well as other future multiverses.
-Node enables users to create their own user profiles and show proof of these profiles. This helps the Averveil ecosystem
-gather more information about users, allowing other entities to benefit from these insights. Nodes are rewarded with
-incentives for sharing this data. Nodes need to provide a verifiable proof which entities can verify.
-Averveil serves as a medium for entities and users in their communication. Nodes also have the responsibility of signing
-their data, which allows for tracing back to the source and ensures privacy.
-Nodes can link various sensors through an Arduino-based client. This data can be gathered, converted, and shared using
-verifible credentials and zero knowledge proofs with other entities. Averveil acts as the middleman for communication,
-verification, and validation. This approach draws inspiration from the ideas presented in
-this [paper](https://arxiv.org/pdf/2209.00586.pdf).
+User engagement is a central focus of the Node system, and highlights the need for data ownership, privacy, and control. Users aspire to manage who accesses their data and the scope of such access. They also aim to authenticate their or someone else's data, receive incentives for data usage, and seamlessly connect different sensors to their Node, ultimately generating zero-knowledge proofs for data validation purposes.
 
-###### Priority
+The Node's validation criteria revolve around providing verifiable credentials, ensuring data privacy and security, and guaranteeing incentives for data sharing. These criteria are foundational to maintaining user trust and fostering an environment where users feel in command of their data and its utilization within the ecosystem. The credibility of the data that is stored on the ecosystem directly impacts the credibility of the user who is publishing the data which in turn may impact how the user receives the rewards. The credibility score can be improved by submission of better data.
 
-:star::star::star::star::star:
+#### Escrow System
+This blockchain-based facility is designed to ensure the secure and transparent execution of transactions, holding financial payments temporarily and releasing them only upon the fulfillment of predefined conditions. By integrating this system, Averveil moves away from traditional intermediaries, instead promoting a decentralized approach with self-executing smart contracts.
 
-##### Functional Requirements
+Functional requirements for the Escrow system include robust authorization and verification processes to validate all transactional parties, user-friendly interfaces for seamless service interaction, comprehensive management of escrow services, payment and commission handling, and conditional execution of transactions. These elements are critical in establishing an Escrow system that is both reliable and user-oriented.
 
-- Authentication and Authorization
-- Access Control
-- Blockchain Interface
-- Storage Interface
-    - Local Storage
-    - Swarm
-- Cryptography
-- ZKP
-- Signing Interface
-- Sensors Interface
-    - Transcoder
-    - Reciever
-    - Signer
-    - Prover
-- User Interface
+The user stories for the Escrow system focus on the ability to send and receive money securely, with the assurance that the funds will be transferred only when agreed-upon conditions are met. Users express the need for a fail-safe mechanism that guarantees the return of their money should the conditions not be satisfied.
 
-##### User Stories
+Validation criteria for the Escrow system are straightforward—users must be able to define and agree upon the conditions for the transaction, send and receive funds accordingly, and have confidence in the secure and conditional nature of the escrow agreement. These criteria ensure that the Escrow system operates transparently and reliably, cementing its role as a trusted mediator in financial transactions within the Averveil ecosystem.
 
-- As a user, I want to be able to control who can access my data and to what extent would this data be accessible.
-- I want to be able to prove to someone that some data `D` belongs to me or has been generated by me.
-- I want to be able to prove that the data I generated is correct and is signed by me.
-- I want to be incentivized for usage of my data.
-- I want to be able to connect different sensors with my node.
-- I want to be able to generate zero knowledge proofs about my data for validation purposes.
-
-##### Validation Criteria
-
-- I want to be able to own verificable credentials that link my data to me.
-- I want assurances that my data will be kept private and secure.
-- I want assurances that I will be incentivised.
-- I want assurances that only I can allow access to my data.
-
-#### Escrow
-
-##### Description
-
-A blockchain based temporary legal arrangement between 2 transacting parties where a third party holds the financial
-payment.This innovative solution aims to provide a secure and transparent platform for facilitating transactions. By
-harnessing the power of blockchain technology, the app ensures that transactions are executed only when predetermined
-conditions are met, eliminating the need for traditional intermediaries and fostering a high level of trust among
-participants. This project aligns with the ethos of decentralization and self-executing smart contracts, contributing to
-a more efficient and equitable digital economy.
-
-###### Priority
-
-:star::star::star:
-
-##### Functional Requirements
-
-- Authorization and verification
-- User facing integration
-- Escrow service
-- Payments and commissions management
-- Conditional execution of transations
-
-##### User Stories
-
-- I want to be able to send money to someone and they should be able to recieve the money.
-- The money should be recieved only if certain per-defined conditions are met.
-- If condtions are not met, I want my money returned to me.
-
-##### Validation Criteria
-
-- User must be able to send and receive money.
-- User must be able to define conditions for exchange of hands.
-
-#### ZK-Insights
-
-##### Description
-
-###### Priority
-
-##### Functional Requirements
-
-##### User Stories
-
-##### Validation Criteria
-
-#### ZK-Marketing
-
-##### Description
-
-###### Priority
-
-##### Functional Requirements
-
-##### User Stories
-
-##### Validation Criteria
-
-#### ZK-Reports
-
-##### Description
-
-###### Priority
-
-##### Functional Requirements
-
-##### User Stories
-
-##### Validation Criteria
-
-#### ERC20 Token
-
-##### Description
-
-###### Priority
-
-##### Functional Requirements
-
-##### User Stories
-
-##### Validation Criteria
-
-#### DAO
-
-##### Description
-
-###### Priority
-
-##### Functional Requirements
-
-##### User Stories
-
-##### Validation Criteria
-
-### Interface Requirements
-
-#### User Interfaces
-
-- Website
-- Backend application
-- Mobile Application
-
-#### Software Interfaces
-
-- API
-- MQTT Brokers
-- Docker
-- Blockchain (TBD) and Contracts
-- Arduino
-
-#### Hardware Interfaces
-
-- Mobile phone
-- Computer or Laptop
-- Arduino with sensors
-
-### Non-Functional Requirements
-
-#### Performance
-
-#### Scalability
-
-#### Usability
-
-#### Security
-
-<!-- ## Lean Metrics
-### Engagement
-### Growth
-### Monetization
-### Marketing
- -->
+#### ZK-Insights, ZK-Marketing, ZK-Reports & DAO
+Above-mentioned are some of the projects that we would be working on in the future.
 
 ### Lean Metrics
 
@@ -853,12 +705,6 @@ platforms and Google will enhance brand visibility and lead generation, with per
 - Ad Position Share
 - Ad Extensions
 - Impressions
-
-### Appendix
-
-#### Assumptions and Dependencies
-
-#### Future Iterations
 
 ### License
 
