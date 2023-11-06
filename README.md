@@ -88,7 +88,7 @@ This document also discusses the underlying ecosystem (Hyperversal Blocks) and t
 priority of the ecosystem.
 
 ### Hyperversal Blocks
-
+![](./assets/architecture.png)
 "Hyperversal Blocks" represent the foundational elements of an expansive ecosystem, designed for the dual purpose of
 constructing a hyper-connected system. These 'blocks' symbolize the core, modular components of our open-source
 framework, designed to seamlessly integrate into multiple projects. The hyperverse refers to the networked realm where
