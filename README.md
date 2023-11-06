@@ -105,6 +105,14 @@ safeguard privacy while compensating users for data contributions.
 
 The ecosystem features a utility token named HBLOCK, which serves as the medium of exchange for various activities and contributions. Users within this ecosystem are rewarded with HBLOCK tokens for engaging in a range of activities such as staking, participating in surveys, or conducting beta testing, particularly within the "BML-Loop" initiative where startups and businesses offer HBLOCK tokens as incentives to users for their valuable feedback and testing efforts. Similarly, in Averveil, users are paid HBLOCKS as rewards for providing the data. Details on the tokenomics of HBLOCK can be found later in this document.
 
+#### Business Model
+All of the projects within the ecosysten will use the HBLOCK token. 
+
+In **"BML-Loop"**, a portion of revenue is shared between the liquidity providers/stakers/investors and the company and some part of the incentive is burned. Remaining amount is paid to tester or early adopter as the fee.
+
+In **"Averveil"**, businesses and other entities pay to use the data dump managed by AV, a portion of the revenue from AV is then distributed amongst lps/stakers and the investors. 
+
+This portion is constantly being updated and the construction of the logic of revenue distribution has not been finalized yet. Please find the above information as a very early draft.
 ### Averveil
 
 For Averveil, the goal is simple, assert your right to privacy and get paid for it. Averveil is like a data-dump, kind
