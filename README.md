@@ -109,17 +109,14 @@ The ecosystem features a utility token named HBLOCK, which serves as the medium 
 All of the projects within the ecosysten will use the HBLOCK token. 
 
 ##### Revenue Generation in BML-Loop
-In **"BML-Loop"**, a portion of revenue is shared between the liquidity providers/stakers/investors and the company and some part of the incentive is burned. Remaining amount is paid to tester or early adopter as the fee.
+In this framework, startups and businesses enlist the services of early adopters and beta testers, paying BML-Loop in Matic currency. Upon successful completion of their services, these testers are compensated with HBLOCK tokens, thereby maintaining a strong liquidity pool for the HBLOCK reward system.
 
-In BML-Loop, we have 3 primary actors:
-- Early Adopters
-- Beta Testers
-- Startups/Businesses
+The revenue model of BML-Loop includes a profit-sharing mechanism where profits are allocated as follows:
+- A portion is retained by BML-Loop for its operational costs and growth.
+- A part of the HBLOCK tokens is burned, effectively reducing the total supply and potentially increasing the value of the remaining tokens.
+- A percentage of the profits is distributed among HBLOCK token holders, providing them with a return on their investment.
 
-Startups and businesses want to hire early adopters or beta-testers for different services. They pay BML-Loop in Matic. Beta-testers and early adopters perform the requested services and receive the reward in HBLOCK token. This ensures that there is enough liquidity against the rewards being dispersed in HBLOCK. From rewards, a portion of profits is received by BML-Loop. From the profits, BML-Loop will do the following:
-- Keep a portion of the profits for itself.
-- Burn some HBLOCK token.
-- Share a percentage of the profits with holders of HBLOCK.
+This structured revenue and token management strategy is designed to benefit all stakeholders within the BML-Loop ecosystem, from the businesses seeking valuable feedback to the individuals providing it, and the investors supporting the platform.
 
 ##### Revenue Generation in Averveil
 In **"Averveil"**, businesses and other entities pay to use the data dump managed by AV, a portion of the revenue from AV is then distributed amongst lps/stakers and the investors. 
