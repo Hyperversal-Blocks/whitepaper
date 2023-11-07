@@ -233,6 +233,9 @@ between companies and testers, ensuring timely payments and authenticating feedb
 
 Visit our platform [here](https://bmlloop.com).
 
+#### Architecture for Startups and Companies
+![](./assets/BMLBusinesses.png)
+
 ### How it Works
 
 #### For Companies
