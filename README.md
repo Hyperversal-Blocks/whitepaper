@@ -108,8 +108,20 @@ The ecosystem features a utility token named HBLOCK, which serves as the medium 
 #### Business Model
 All of the projects within the ecosysten will use the HBLOCK token. 
 
+##### Revenue Generation in BML-Loop
 In **"BML-Loop"**, a portion of revenue is shared between the liquidity providers/stakers/investors and the company and some part of the incentive is burned. Remaining amount is paid to tester or early adopter as the fee.
 
+In BML-Loop, we have 3 primary actors:
+- Early Adopters
+- Beta Testers
+- Startups/Businesses
+
+Startups and businesses want to hire early adopters or beta-testers for different services. They pay BML-Loop in Matic. Beta-testers and early adopters perform the requested services and receive the reward in HBLOCK token. This ensures that there is enough liquidity against the rewards being dispersed in HBLOCK. From rewards, a portion of profits is received by BML-Loop. From the profits, BML-Loop will do the following:
+- Keep a portion of the profits for itself.
+- Burn some HBLOCK token.
+- Share a percentage of the profits with holders of HBLOCK.
+
+##### Revenue Generation in Averveil
 In **"Averveil"**, businesses and other entities pay to use the data dump managed by AV, a portion of the revenue from AV is then distributed amongst lps/stakers and the investors. 
 
 This portion is constantly being updated and the construction of the logic of revenue distribution has not been finalized yet. Please find the above information as a very early draft.
