@@ -183,8 +183,7 @@ update.
 Our ecosystem will primarily use a single utility token called HB. This utility token will be used across the apps
 deployed on
 ecosystem. This token will be responsible for all in-app purchases, rewards and for maintaining the economy of the
-ecosystem. The primary reason for choosing Polygon for deployment is due to the newly introduced verifiable credentials
-and the support of ZKEVM that could be used in future for Averveil.
+ecosystem. The primary reason for choosing Polygon for deployment is due to the newly introduced verifiable credentials and the support of ZKEVM that could be used in future for Averveil.
 
 #### Tokenomics for HB
 
@@ -192,7 +191,7 @@ $ represents the cost in US dollars.
 
 - **Total Supply:** 1 Billion HB
 - **Foundation:** 200 Million HB (20% of total supply)
-    - 10% Liquid on TGE, linear vesting for 24 months (3 Years total)
+    - 10% Liquid on TGE, linear vesting for 24 months (2 Years total)
 - **Current and Future Team:** 50 Million HB (5% of total supply)
     - 12 Months Cliff, linear vesting for 24 months (3 Years total)
 - **Advisors:** 50 Million HB (5% of total supply)
