@@ -106,9 +106,9 @@ safeguard privacy while compensating users for data contributions.
 The ecosystem features a utility token named HBLOCK, which serves as the medium of exchange for various activities and contributions. Users within this ecosystem are rewarded with HBLOCK tokens for engaging in a range of activities such as staking, participating in surveys, or conducting beta testing, particularly within the "BML-Loop" initiative where startups and businesses offer HBLOCK tokens as incentives to users for their valuable feedback and testing efforts. Similarly, in Averveil, users are paid HBLOCKS as rewards for providing the data. Details on the tokenomics of HBLOCK can be found later in this document.
 
 #### Business Model
-All of the projects within the ecosysten will use the HBLOCK token. 
+All of the projects within the ecosystem will use the HBLOCK token. 
 
-##### Revenue Generation in BML-Loop
+##### Revenue Model in BML-Loop
 In this framework, startups and businesses enlist the services of early adopters and beta testers, paying BML-Loop in Matic currency. Upon successful completion of their services, these testers are compensated with HBLOCK tokens, thereby maintaining a strong liquidity pool for the HBLOCK reward system.
 
 The revenue model of BML-Loop includes a profit-sharing mechanism where profits are allocated as follows:
@@ -118,16 +118,27 @@ The revenue model of BML-Loop includes a profit-sharing mechanism where profits 
 
 This structured revenue and token management strategy is designed to benefit all stakeholders within the BML-Loop ecosystem, from the businesses seeking valuable feedback to the individuals providing it, and the investors supporting the platform.
 
-##### Revenue Generation in Averveil
-In **"Averveil"**, businesses and other entities pay to use the data dump managed by AV, a portion of the revenue from AV is then distributed amongst lps/stakers and the investors. 
+##### Revenue Model in Averveil
+1. Transaction Fees:
+    - Users pay crypto to buy data from different nodes (Node 1, Node 2). Native utility token "HBLOCK" is paid to nodes (price of data is set by nodes). AV could take a commission on these transactions.
 
-This portion is constantly being updated and the construction of the logic of revenue distribution has not been finalized yet. Please find the above information as a very early draft.
+2. Data Publishing and Rental:
+    - AV allows the publication of data which can then be rented out. There could be fees associated with publishing data as well as renting it out. The data once rented could also be accessed on Swarm, which is a decentralized storage solution.
+   
+3. Non-Fungible Tokens (NFTs):
+    - The data published on AV is also uploaded on the FE as NFTs, indicating that data could be tokenized, creating unique, verifiable, and potentially tradable assets. Revenue could be generated from the creation, sale, and transfer of these NFTs.
+
+4. API and Data Source Integrations:
+    - External data sources, APIs, and databases appear to be integrated into the system. AV could charge for API access or data feed integrations.
+
+AV's revenue model could include fees for transactions, data publishing, data rental, and possibly subscription or access fees for API integrations. Additionally, the creation and trade of NFTs tied to data assets could be a significant revenue stream. This model capitalizes on the decentralized, trustless nature of blockchain technology to facilitate data transactions while earning from various stages of data handling and verification.
+
 ### Averveil
 
 For Averveil, the goal is simple, assert your right to privacy and get paid for it. Averveil is like a data-dump, kind
 of like ChatGPT, only that it is node based, the data belongs to you, and you are incentivised for sharing your data.
 And the fun part is that it can be integrated completely with any of the sytems. Averveil is being designed such that
-you can integrate this within your mobile or webapp or just run it as a node.
+you can integrate this within your mobile or webapp or just run it as a node. Simply put, Averveil is OpenSea for data, but intelligent. 
 
 Averveil also allows the user to generate Zero-Knowledge based proofs of data and submit them on-chain for some verifier
 interested in buying their data. Data is what drove this technological advancement, and it is indeed not going anywhere.
