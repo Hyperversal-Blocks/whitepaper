@@ -495,7 +495,7 @@ We aim to be:
 
 ### Introduction
 #### Architecture 
-![](./assets/AV-Architecture.jpg)
+![](./assets/av-1.jpg)
 #### Purpose
 
 The purpose is to provide a comprehensive and detailed description of the technical specifications and functionalities
