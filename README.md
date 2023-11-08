@@ -494,7 +494,8 @@ We aim to be:
 - Decentralized
 
 ### Introduction
-
+#### Architecture 
+![](./assets/AV-Architecture.jpg)
 #### Purpose
 
 The purpose is to provide a comprehensive and detailed description of the technical specifications and functionalities
