@@ -654,6 +654,27 @@ user-centered product.
 
 ### Detailed Overview of System Features and Requirements
 
+#### Implementation Logic for converting a document into an NFT
+1. **Data Acquisition**
+    - Initially, specific data is contained within some document(PDF, Excel sheet, word doc etc.). This data is received by a Node through external means, possibly via file uploads, API calls, or direct data transfer.
+
+2. **Steganographic Encoding**
+    - The Node employs steganography, a technique for concealing information within another medium. In this case, the data from the file is encoded into an image.
+    - For the MVP phase, the Node uses external tools or libraries to facilitate this steganographic process.
+    - For the eventual production environment, Averveil plans to develop a custom steganography solution, tailored to meet its specific requirements and enhance data security and efficiency.
+
+3. **Metadata Definition**
+    - Concurrently, the Node defines the metadata of the NFT. This metadata is structured in a JSON format, detailing attributes of the NFT such as title, description, and links to the steganographically-encoded image.
+
+4. **NFT Minting Process**
+    - The Node then proceeds to mint an NFT from the encoded image. This NFT adheres to the ERC-1155 standard, chosen for its flexibility and suitability for the MVP's use case. The minting process involves recording this NFT on the blockchain, thereby establishing its uniqueness and ownership information.
+
+5. **Smart Contract Event and Marketplace Integration**
+    - Following the minting, the associated smart contract generates an event. This event signals the successful creation of the NFT.
+    - The Averveil marketplace, upon receiving this event, takes action to list the newly minted NFT. This enables the NFT to be visible and available for transactions within the Averveil ecosystem.
+
+6. **Marketplace Listing**
+    - On the Averveil marketplace, the NFT is displayed with its relevant metadata, image, and any other pertinent details. Potential buyers can view, verify, and engage in transactions to purchase or bid on the NFT.
 #### Node
 
 The Node system stands as a significant feature within the Averveil multiverse. It is a decentralized node-based infrastructure essential for the smooth functioning of Averveil ecosystem. The system empowers users to establish and authenticate their profiles, providing the Averveil ecosystem with rich data which, in turn, can be leveraged by other interconnected entities or users. The design encourages data sharing by rewarding Nodes, fostering a collaborative and informative network. This secure exchange of information is built on a foundation of verifiable proof, ensuring data integrity and privacy. To facilitate such operations, the Node system includes an array of functional requirements such as robust authentication mechanisms, access control, blockchain, and storage interfaces, cryptographic services including zero-knowledge proofs, and comprehensive user and sensor interfaces.
