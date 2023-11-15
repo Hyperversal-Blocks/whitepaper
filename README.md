@@ -152,7 +152,7 @@ This also re-iterates our commitment to staying decentralized and protect your p
 
 ### BML-Loop
 
-BML Loop is an innovative platform designed to revolutionize the beta testing experience by leveraging blockchain
+BML Loop is an innovative platform designed to revolutionize the beta testing and early adoption experience by leveraging blockchain
 technology. It serves as a one-stop solution for companies and beta testers, providing a secure and seamless environment
 for beta testing applications before their full release. The platform stands out by ensuring secure and transparent
 transactions between companies and testers, which guarantees timely payments and authentic feedback.
